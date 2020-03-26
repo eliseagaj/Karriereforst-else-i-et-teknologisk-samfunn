@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+//
+// In order to translate HtmlQ or to customize the texts,
+// just change the text between the opening and the closing
+// tag. The attribute 'id' is the name of the variable
+// and must remain unchanged.
+//
+// You can use HTML-tags, but you have to braces instead
+// of the normal angle brackets, otherwise the import will fail.
+// Example: {b}bold{/b}
+//
+// If your are using German Umlauts and other special
+// characters, make sure, that you save this XML-file
+// as an UTF-8-document. White-space inbetween the
+// nodes are ignored. Any white-space within the text-
+// nodes, including leading or trailing whitespace and
+// line breaks, is preserved.
+//
+// ===================================================
+//
+-->
+
+<language version="1.0" htmlParse="true">
+
+  <!-- misc -->
+  <item id="btnContinue">Fortsett...</item>
+  <item id="btnclose">Lukk</item>
+  <item id="btnHelp">Help meg!</item>
+  <item id="btnAgreement">Enig</item>
+  <item id="btnNeutral">Nøytral</item>
+  <item id="btnDisagreement">Uenig</item>
+  <item id="btnTransfer">Send data</item>
+  <item id="btnMail">Send via email</item>
+  <item id="btnPrint">Print data</item>
+  <item id="btnExit">Avslutt</item>
+  <item id="selectItem">Vennligst vent...</item>
+
+  <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+  <item id="leaveSiteWarning">Dine svar vil bli borte.</item>
+
+  <!-- HtmlQ only: In-App Back Button -->
+  <item id="backButton">Tilbake</item>
+  <item id="fillInRequiredFields">Vennligst fyll alle rutene.</item>
+
+  <!-- errors -->
+  <item id="errorHead">Error!</item>
+  <item id="errorWindowTooSmall">Vennligst maksimerer browseren for å bruke denne applikasjon.</item>
+
+  <!-- welcome screen (leave blank to skip screen) -->
+  <item id="welcomeHead">Velkommen!</item>
+  <item id="welcomeText">Vennligst noter: Dette er bare en demo og svarene blir ikke lagret. Takk til Job van Exel, at vi kan bruke denne filen.{br}{br}Kommentarere eller feil kan meldes fra om.{br}{br}. Vennligst trykk videre.</item>
+
+  <!-- user login, only displayed if access is restricted (see config-file) -->
+  <item id="loginHead">Bruker kode</item>
+  <item id="loginText">Vennligst skriv inn brukerkoden. Noter at dette bare er en demo, hvilken som helst kode vil bli akseptert.{br}{br}{i}</item>
+  <item id="loginFormHeader">Bruker kode</item>
+  <item id="loginNoInput">Vennligst skriv inn brukerkode.</item>
+  <item id="loginInvalidInput">Brukerkode invalid</item>
+  <item id="loginNoConnection">Tilkobling til server feilet. Vennligst forsøk igjen.</item>
+
+  <!-- introduction (leave blank to skip popup) -->
+  <item id="introHead">Introduksjon</item>
+  <item id="introText">Denne studien er om opplevelse av din karrier.{br}{br}Vennligst maksimerer browseren og klikk på videre knappen.</item>
+
+  <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+  <item id="step1Head">Step 1 av 4</item>
+  <item id="step1Text">Les de kommende utsagnene nøye og del dem opp i tre hauger: En haug for utsagn du er uenige med, en haug for de utsagnene du er enige med, og en haug for resten.{br}{br}Du kan enten dra utsagnene inn i hver haug eller trykke 1, 2, 3 på tastaturet. Det mulig å gjøre forandringer senere.{br}{br}Hvis du vil lese instruksene en gang til kan du trykke på hjelp-knappen.</item>
+
+  <!-- step2: sorting (leave blank to skip popup) -->
+  <item id="step2Head">Step 2 av 4</item>
+  <item id="step2Text">Ta utsagnene fra enig-haugen og les dem igjen. Du kan scrolle deg gjennom utsagnene ved å bruke scroll. Neste steg er å velge ut ett utsagn som du er mest enig med, altså hva stemmer mest overens med din egen opplevelse av karriere, og plasser dem på høyre side av ruteskjemaet under "+5".{br}{br}Nå les utsagnene fra uenig-haugen. Akkurat som før skal du velge ut ett utsagn som du er mest uenig i og plasserer den til venstre i ruteskjemaet "-5".{br}{br}Videre velger du utsagn som du er nest-mest uenig/enig i, og plasser dem på "-4" og "+4". Følg prosedyren videre med alle utsagnene i "Enig-haugen" og "Uenig-haugen.{br}{br}Tilslutt sitter du igjen med utsagnene fra nøytral-haugen. Les dem opp høyt og plasser dem inn i ruteskjemaet.</item>
+
+  <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+  <item id="step3Head">Step 3 av 4</item>
+  <item id="step3Text">Nå har du plassert alle utsagnene i ruteskjemaet. Vennligst se over sorteringen. Nå kan du bytte plass på utsagnene, hvis du har behov for det. .{br}{br}}</item
+
+  <!-- step4: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+  <item id="step5Head">Step 4 av 4</item>
+  <item id="step5Text">Avslutningsvis ønskes det litt informasjon om din bakgrunn.{br}{br}</item>
+
+  <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+  <item id="transferHead">Submit Data</item>
+  <item id="transferText">Du er feridg med Q-sorteringen. Vennligst send inn den samlende dataen.</item>
+  <item id="transferFailed">Data insamlingen feilet. Vennligst prøv på nytt eller send dataen på mail (eliseagaj@hotmail.com)</item>
+  <item id="transferOk">Tusen takk for at du ville bidra til dette masterstudiet. </item>
+
+  <!-- send data via mail, only displayed if submitUrl is blank (see config-file) -->
+  <item id="mailHead">Submit Data</item>
+  <item id="mailText">Du kan sende inn dataen på mail, eliseagaj@hotmail.com </item>
+
+  <!-- e-mail-body -->
+  <item id="mailBody">Takk for deltagelsen i dette masterstudiet.:</item>
+
+  <!-- print out -->
+  <item id="printoutText">Somebody{br}Some street 100{br}Some city{br}{br}Please send this printout to address mentioned above. Thanks for you help.</item>
+
+</language>
